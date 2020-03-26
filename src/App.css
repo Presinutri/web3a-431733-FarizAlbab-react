@@ -1,5 +1,14 @@
+@import '~antd/dist/antd.css';
+
 .App {
-  text-align: center;
+  text-align: right;
+  background-color: #dee3e2;
+  padding-left: 30px;
+}
+
+.app-text{
+  text-align: left;
+  display: inline-block;
 }
 
 .App-logo {
@@ -35,4 +44,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100px;
+  box-shadow:0px 2px 2px #000;
+  display: inline-block;
+  margin: 10px;
+}
+
+.ant-layout-header{
+  text-align: center;
+}
+
+.site-card-wrapper{
+  text-align: left;
+}
+
+.ant-layout-content{
+  background-color: grey;
+}
+
+.ant-row row-list{
+  margin-left: 10px;
+}
+
+.content{
+  padding: 0 50px;
+}
+
+.ant-col ant-col-12 app-text{
+  
 }
