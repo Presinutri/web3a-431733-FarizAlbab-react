@@ -3,12 +3,12 @@
 .App {
   text-align: right;
   background-color: #dee3e2;
-  padding-left: 30px;
 }
 
 .app-text{
   text-align: left;
-  display: inline-block;
+  padding-top: 50px;
+  padding-left: 100px;
 }
 
 .App-logo {
@@ -79,3 +79,10 @@
 .ant-col ant-col-12 app-text{
   
 }
+
+.img-sepatu {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+

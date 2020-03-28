@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import { Card } from 'antd';
-import './App.css';
+import './../../App.css';
+import './Women.css';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { Col, Row } from 'antd';
 import { Button, Tooltip } from 'antd';
@@ -41,7 +41,7 @@ const { Meta } = Card;
     }
 
   ]
-  class App extends React.Component{
+  class Women extends React.Component{
     render(){
       return (
         <Layout className="layout">
@@ -50,11 +50,11 @@ const { Meta } = Card;
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['1']}
+            defaultSelectedKeys={['2']}
             style={{ lineHeight: '64px' }}
           >
-            <Menu.Item key="1">MEN</Menu.Item>
-            <Menu.Item key="2"><Link to='/Women'>WOMEN</Link></Menu.Item>
+            <Menu.Item key="1"><Link to='/'>MEN</Link></Menu.Item>
+            <Menu.Item key="2">WOMEN</Menu.Item>
             <Menu.Item key="3">KIDS</Menu.Item>
             <Menu.Item key="4">ABOUT</Menu.Item>
           </Menu>
@@ -68,7 +68,7 @@ const { Meta } = Card;
             <Row>
               <Col span={12} className="app-text">
                 <h1>30% OFF FOR A LIMITED TIME</h1>
-                <p>Get 30% off full price and sale with promo code MARCH30 at checkout. Excludes Yeezy, Pharrell Williams, and Gift Cards</p>
+                <p>sad</p>
                 <Button type="dark" style={{width:'90px', height:'50px'}}>
                    SHOP
                    <ArrowRightOutlined />
@@ -106,4 +106,4 @@ const { Meta } = Card;
   }
 
 
-export default App;
+export default Women;
