@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/presinutri.github.io/adadas/static/css/main.38a5a20d.chunk.css",
+    "main.js": "/presinutri.github.io/adadas/static/js/main.c3e2370b.chunk.js",
+    "main.js.map": "/presinutri.github.io/adadas/static/js/main.c3e2370b.chunk.js.map",
+    "runtime-main.js": "/presinutri.github.io/adadas/static/js/runtime-main.de898337.js",
+    "runtime-main.js.map": "/presinutri.github.io/adadas/static/js/runtime-main.de898337.js.map",
+    "static/css/2.1bd2ab2f.chunk.css": "/presinutri.github.io/adadas/static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.fcfe33d7.chunk.js": "/presinutri.github.io/adadas/static/js/2.fcfe33d7.chunk.js",
+    "static/js/2.fcfe33d7.chunk.js.map": "/presinutri.github.io/adadas/static/js/2.fcfe33d7.chunk.js.map",
+    "index.html": "/presinutri.github.io/adadas/index.html",
+    "precache-manifest.452549dd10f440df490ab4c480e01a0c.js": "/presinutri.github.io/adadas/precache-manifest.452549dd10f440df490ab4c480e01a0c.js",
+    "service-worker.js": "/presinutri.github.io/adadas/service-worker.js",
+    "static/css/2.1bd2ab2f.chunk.css.map": "/presinutri.github.io/adadas/static/css/2.1bd2ab2f.chunk.css.map",
+    "static/css/main.38a5a20d.chunk.css.map": "/presinutri.github.io/adadas/static/css/main.38a5a20d.chunk.css.map",
+    "static/js/2.fcfe33d7.chunk.js.LICENSE.txt": "/presinutri.github.io/adadas/static/js/2.fcfe33d7.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/presinutri.github.io/adadas/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de898337.js",
+    "static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.fcfe33d7.chunk.js",
+    "static/css/main.38a5a20d.chunk.css",
+    "static/js/main.c3e2370b.chunk.js"
+  ]
+}
