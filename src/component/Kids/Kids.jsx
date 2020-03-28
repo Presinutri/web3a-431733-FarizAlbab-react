@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../logo.svg';
 import { Card } from 'antd';
 import '../../App.css';
-import './Women.css';
+import './Kids.css';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { Col, Row } from 'antd';
 import { Button, Tooltip } from 'antd';
@@ -38,7 +38,7 @@ const { Meta } = Card;
     }
 
   ]
-  class Women extends React.Component{
+  class Kids extends React.Component{
     render(){
       return (
         <Layout className="layout">
@@ -47,23 +47,23 @@ const { Meta } = Card;
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['2']}
+            defaultSelectedKeys={['3']}
             style={{ lineHeight: '64px'}}
           >
             <Menu.Item key="1"><Link to='/'>MEN</Link></Menu.Item>
-            <Menu.Item key="2">WOMEN</Menu.Item>
-            <Menu.Item key="3"><Link to='/kids'>KIDS</Link></Menu.Item>
+            <Menu.Item key="2"><Link to='/women'>WOMEN</Link></Menu.Item>
+            <Menu.Item key="3">KIDS</Menu.Item>
           </Menu>
         </Header>
         <Content className="content">
           <Breadcrumb style={{ margin: '16px 0',textAlign: 'center'}}>
-            <p style={{color: '#dee3e2'}}> In support of the worldwide effort to keep our communities safe, we will close our US stores through March 29. <b>READ MORE</b></p>
+            <p style={{color: '#dee3e2'}}> US Store Closure Updates  <b>READ MORE</b></p>
           </Breadcrumb>
 
-          <div className="App">
+          {/* <div className="App">
             <Row>
               <Col span={12} className="app-text">
-                <h1 style={{fontSize:'30pt', margin:'0'}}>30% OFF FOR A LIMITED TIME</h1>
+                <h1 style={{fontSize:'30pt', margin:'0'}}>50% OFF FOR A LIMITED TIME</h1>
                 <p>Get 30% off full price and sale with promo code MARCH30 at checkout. Excludes Yeezy, Pharrell Williams, and Gift Cards</p>
                 <Button type="dark" style={{width:'150px', height:'50px',  color:'white', backgroundColor:'black'}}>
                    SHOP NOW
@@ -74,7 +74,7 @@ const { Meta } = Card;
                 <img className="img-sepatu" src="https://sneakerbardetroit.com/wp-content/uploads/2018/06/adidas-Ultra-Boost-Ash-Peach-BB6497.jpg"></img>
               </Col> 
             </Row>
-          </div>
+          </div> */}
           <div className="App-women">
             <Row>
               <Col span={12}>
@@ -158,4 +158,4 @@ const { Meta } = Card;
   }
 
 
-export default Women;
+export default Kids;

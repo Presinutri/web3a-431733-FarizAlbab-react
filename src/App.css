@@ -4,14 +4,13 @@
   text-align: right;
   background-color: #dee3e2;
   height: 400px;
-  margin-bottom: 10px;
 }
 
 .content-text{
   text-align: center;
   padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
   background-color: #dee3e2;
   height: 200px;
 }
@@ -20,7 +19,7 @@
   text-align: center;
   padding-top: 20px;
   padding-right: 40px;
-  background-color: #ff7272;
+  background-color: #ff1e56;
   height: 150px;
 }
 
@@ -40,6 +39,7 @@
   text-align: left;
   padding-top: 70px;
   padding-left: 170px;
+  padding-right: 30px;
 }
 
 .App-logo {
@@ -93,6 +93,7 @@
 
 .site-card-wrapper{
   text-align: left;
+  margin-top: 10px;
 }
 
 .ant-layout-content{
