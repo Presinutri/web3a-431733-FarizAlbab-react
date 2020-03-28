@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d487b7b3f9834950c220a933bc776441",
+    "revision": "7b9c3615ba724e343e3eb86dffc1bc53",
     "url": "/web3a-431733-farizalbab-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web3a-431733-farizalbab-react/static/css/2.1bd2ab2f.chunk.css"
   },
   {
-    "revision": "4e8be9637c802823697c",
-    "url": "/web3a-431733-farizalbab-react/static/css/main.38a5a20d.chunk.css"
+    "revision": "21510a4b4b7fe58dc8ce",
+    "url": "/web3a-431733-farizalbab-react/static/css/main.de531d77.chunk.css"
   },
   {
     "revision": "987a78720ac5c6083783",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web3a-431733-farizalbab-react/static/js/2.c9dd57e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e8be9637c802823697c",
-    "url": "/web3a-431733-farizalbab-react/static/js/main.092dac3d.chunk.js"
+    "revision": "21510a4b4b7fe58dc8ce",
+    "url": "/web3a-431733-farizalbab-react/static/js/main.77750c95.chunk.js"
   },
   {
     "revision": "ba90043905577ac1711c",

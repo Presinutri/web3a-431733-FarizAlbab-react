@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/web3a-431733-farizalbab-react/static/css/main.38a5a20d.chunk.css",
-    "main.js": "/web3a-431733-farizalbab-react/static/js/main.092dac3d.chunk.js",
-    "main.js.map": "/web3a-431733-farizalbab-react/static/js/main.092dac3d.chunk.js.map",
+    "main.css": "/web3a-431733-farizalbab-react/static/css/main.de531d77.chunk.css",
+    "main.js": "/web3a-431733-farizalbab-react/static/js/main.77750c95.chunk.js",
+    "main.js.map": "/web3a-431733-farizalbab-react/static/js/main.77750c95.chunk.js.map",
     "runtime-main.js": "/web3a-431733-farizalbab-react/static/js/runtime-main.f8008483.js",
     "runtime-main.js.map": "/web3a-431733-farizalbab-react/static/js/runtime-main.f8008483.js.map",
     "static/css/2.1bd2ab2f.chunk.css": "/web3a-431733-farizalbab-react/static/css/2.1bd2ab2f.chunk.css",
     "static/js/2.c9dd57e9.chunk.js": "/web3a-431733-farizalbab-react/static/js/2.c9dd57e9.chunk.js",
     "static/js/2.c9dd57e9.chunk.js.map": "/web3a-431733-farizalbab-react/static/js/2.c9dd57e9.chunk.js.map",
     "index.html": "/web3a-431733-farizalbab-react/index.html",
-    "precache-manifest.02fb9a53f325c6b1b7c4a0af370d731d.js": "/web3a-431733-farizalbab-react/precache-manifest.02fb9a53f325c6b1b7c4a0af370d731d.js",
+    "precache-manifest.50fa6b7a8e9efeb668bab54c6ebfddcb.js": "/web3a-431733-farizalbab-react/precache-manifest.50fa6b7a8e9efeb668bab54c6ebfddcb.js",
     "service-worker.js": "/web3a-431733-farizalbab-react/service-worker.js",
     "static/css/2.1bd2ab2f.chunk.css.map": "/web3a-431733-farizalbab-react/static/css/2.1bd2ab2f.chunk.css.map",
-    "static/css/main.38a5a20d.chunk.css.map": "/web3a-431733-farizalbab-react/static/css/main.38a5a20d.chunk.css.map",
+    "static/css/main.de531d77.chunk.css.map": "/web3a-431733-farizalbab-react/static/css/main.de531d77.chunk.css.map",
     "static/js/2.c9dd57e9.chunk.js.LICENSE.txt": "/web3a-431733-farizalbab-react/static/js/2.c9dd57e9.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/web3a-431733-farizalbab-react/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.f8008483.js",
     "static/css/2.1bd2ab2f.chunk.css",
     "static/js/2.c9dd57e9.chunk.js",
-    "static/css/main.38a5a20d.chunk.css",
-    "static/js/main.092dac3d.chunk.js"
+    "static/css/main.de531d77.chunk.css",
+    "static/js/main.77750c95.chunk.js"
   ]
 }
