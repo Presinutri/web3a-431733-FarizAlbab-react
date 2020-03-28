@@ -56,7 +56,6 @@ const { Meta } = Card;
             <Menu.Item key="1">MEN</Menu.Item>
             <Menu.Item key="2"><Link to='/Women'>WOMEN</Link></Menu.Item>
             <Menu.Item key="3">KIDS</Menu.Item>
-            <Menu.Item key="4">ABOUT</Menu.Item>
           </Menu>
         </Header>
         <Content className="content">
@@ -67,15 +66,15 @@ const { Meta } = Card;
           <div className="App">
             <Row>
               <Col span={12} className="app-text">
-                <h1>30% OFF FOR A LIMITED TIME</h1>
+                <h1 style={{fontSize:'30pt', margin:'0'}}>30% OFF FOR A LIMITED TIME</h1>
                 <p>Get 30% off full price and sale with promo code MARCH30 at checkout. Excludes Yeezy, Pharrell Williams, and Gift Cards</p>
-                <Button type="dark" style={{width:'90px', height:'50px'}}>
-                   SHOP
+                <Button type="dark" style={{width:'150px', height:'50px', color:'black'}}>
+                   SHOP NOW
                    <ArrowRightOutlined />
                 </Button>
               </Col>
               <Col span={12}>
-                <img className="img-sepatu" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdjIL5PYG8xjWag9cmarsc8y0IHkMJ-0RuKovtIPErbW4AcvVE"></img>
+                <img className="img-sepatu" src="https://houseofheat.co/app/uploads/2019/09/Air-Jordan-34-22Blue-Void22-AR3240-400-1.jpg"></img>
               </Col> 
             </Row>
             
@@ -83,7 +82,7 @@ const { Meta } = Card;
 
       
       <div className="site-card-wrapper">
-        <h1 style={{textAlign:'center',color:'#dee3e2', padding:5}}>WHAT'S TRENDING</h1>
+        <h1 style={{textAlign:'center',color:'#dee3e2'}}>WHAT'S TRENDING</h1>
         
             <Row justify="center">
               {cardData.map(data=> 
@@ -97,8 +96,47 @@ const { Meta } = Card;
             </Row>
       </div>
 
+      <div className="content-text">
+        <h3>STORIES, STYLE, AND SPORTING GOODS AT ADIDAS, SINCE 1949</h3>
+        <p>Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. adidas is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.</p>
+
+      </div>
+
+      <div className="content-discount">
+        <Row>
+          <Col span={12} className="discount-text" style={{textAlign:'right', paddingRight:'30px'}}>
+            <h2 style={{fontSize:'25pt', margin:'0', color:'white'}}>JOIN CREATOR & GET <br/>15% DISCOUNT</h2>
+          </Col>
+          <Col span={12} style={{paddingTop:'30px', textAlign:'left'}}>
+          <Button type="dark" style={{width:'125px', height:'50px', color:'black'}}>
+              SIGN UP
+              <ArrowRightOutlined />
+            </Button>
+          </Col> 
+        </Row>
+      </div>
+
+      <div className="content-footer">
+        <Row>
+          <Col span={10} style={{textAlign:'right'}}>
+            <h3>TRENDING</h3>
+            <p>Black Friday<br/>Cyber Monday<br/>Casual Shoes<br/>Slip On Shoes<br/>Camo Clothing<br/>Burgundy Shoes<br/>Leather Sneakers</p>
+          </Col>
+          <Col span={4}>
+          <h3>CUSTOMER SUPPORT</h3>
+          <p>Get Help<br/>Track Order<br/>Return and Refunds<br/>Promotions<br/>How to Clean<br/>Store Locator<br/>Site Map</p>
+          </Col>
+          <Col span={10}style={{textAlign:'left'}}>
+          <h3>COMPANY INFO</h3>
+          <p>About Us<br/>Careers<br/>Press<br/>Military Discount<br/>Student Discount<br/>Mobile Apps<br/>Creator Clubs Adadas Stories</p>
+            
+          </Col>
+        </Row>
+
+      </div>
+
         </Content>
-        <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+        <Footer style={{ textAlign: 'center', height:'0px', paddingTop:0, background:'grey', color:'white'}}>Ant Design ©2018 Created by Ant UED</Footer>
       </Layout>
       
         );
