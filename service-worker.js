@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/web3a-431733-farizalbab-react/precache-manifest.d07d7e6cda8e8f043d3f882fcb84bf36.js"
+  "/web3a-431733-farizalbab-react/precache-manifest.68d77d7ed2c128d9b11a923b0f912aaf.js"
 );
 
 self.addEventListener('message', (event) => {
