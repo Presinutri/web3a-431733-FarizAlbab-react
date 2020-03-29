@@ -45,10 +45,10 @@ const { Meta } = Card;
         <Header>
           <div className="logo" />
           <Menu
-            theme="dark"
+            theme="light"
             mode="horizontal"
             defaultSelectedKeys={['2']}
-            style={{ lineHeight: '64px'}}
+            style={{ lineHeight: '64px',fontWeight:'bold'}}
           >
             <Menu.Item key="1"><Link to='/'>MEN</Link></Menu.Item>
             <Menu.Item key="2">WOMEN</Menu.Item>
@@ -57,17 +57,17 @@ const { Meta } = Card;
         </Header>
         <Content className="content">
           <Breadcrumb style={{ margin: '16px 0',textAlign: 'center'}}>
-            <p style={{color: '#dee3e2'}}> In support of the worldwide effort to keep our communities safe, we will close our US stores through March 29. <b>READ MORE</b></p>
+            <p style={{color: 'black'}}> In support of the worldwide effort to keep our communities safe, we will close our US stores through March 29. <b>READ MORE</b></p>
           </Breadcrumb>
 
-          <div className="App">
+          <div className="App-women">
             <Row>
               <Col span={12} className="app-text">
                 <h1 style={{fontSize:'30pt', margin:'0'}}>30% OFF FOR A LIMITED TIME</h1>
                 <p>Get 30% off full price and sale with promo code MARCH30 at checkout. Excludes Yeezy, Pharrell Williams, and Gift Cards</p>
                 <Button type="dark" style={{width:'150px', height:'50px',  color:'white', backgroundColor:'black'}}>
                    SHOP NOW
-                   <ArrowLeftOutlined />
+                   <ArrowRightOutlined />
                 </Button>
               </Col>
               <Col span={12}>
@@ -75,7 +75,7 @@ const { Meta } = Card;
               </Col> 
             </Row>
           </div>
-          <div className="App-women">
+          <div className="App-women2">
             <Row>
               <Col span={12}>
               <img className="img-sepatu-women" src="https://www.improveyourvolley.com/images/alixklinemanadidascloseup.jpg"></img>  
@@ -102,13 +102,13 @@ const { Meta } = Card;
       </div>
 
       <div className="site-card-wrapper">
-        <h1 style={{textAlign:'center',color:'#dee3e2', fontSize:'18pt'}}>WHAT'S TRENDING</h1>
+        <h1 style={{textAlign:'center',color:'black', fontSize:'18pt'}}>WHAT'S TRENDING</h1>
         
             <Row justify="center">
               {cardData.map(data=> 
               <Card
                 hoverable
-                style={{ width: 250, margin: 10 }}
+                style={{ width: 250, margin: 10, textAlign:'left'}}
                 cover={<img alt="example" src={data.image} />}>
                 <Meta title={data.title} description={data.price} />
               </Card>
@@ -118,8 +118,8 @@ const { Meta } = Card;
 
       <div className="content-discount-women">
         <Row>
-          <Col span={12} className="discount-text-women" style={{textAlign:'right', paddingRight:'30px'}}>
-            <h2 style={{fontSize:'25pt', margin:'0', color:'black'}}>STAY IN THE KNOW WITH ADADAS!</h2>
+          <Col span={12} className="discount-text-women" style={{textAlign:'left', paddingLeft:'300px'}}>
+            <h2 style={{fontSize:'23pt', margin:'0', color:'black', fontWeight:'bold'}}>STAY IN THE KNOW WITH ADADAS!</h2>
           </Col>
           <Col span={12} style={{paddingTop:'30px', textAlign:'left'}}>
           <Button type="dark" style={{width:'125px', height:'50px', color:'white', backgroundColor:'black'}}>

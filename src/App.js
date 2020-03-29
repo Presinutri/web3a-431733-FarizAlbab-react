@@ -48,10 +48,10 @@ const { Meta } = Card;
         <Header>
           <div className="logo" />
           <Menu
-            theme="dark"
+            theme="light"
             mode="horizontal"
             defaultSelectedKeys={['1']}
-            style={{ lineHeight: '64px'}}
+            style={{ lineHeight: '64px', fontWeight:'bold'}}
           >
             <Menu.Item key="1">MEN</Menu.Item>
             <Menu.Item key="2"><Link to='/women'>WOMEN</Link></Menu.Item>
@@ -60,7 +60,7 @@ const { Meta } = Card;
         </Header>
         <Content className="content">
           <Breadcrumb style={{ margin: '16px 0',textAlign: 'center'}}>
-            <p style={{color: '#dee3e2'}}> In support of the worldwide effort to keep our communities safe, we will close our US stores through March 29. <b>READ MORE</b></p>
+            <p style={{color: 'black'}}> In support of the worldwide effort to keep our communities safe, we will close our US stores through March 29. <b>READ MORE</b></p>
           </Breadcrumb>
 
           <div className="App">
@@ -80,13 +80,13 @@ const { Meta } = Card;
           </div>
 
       <div className="site-card-wrapper">
-        <h1 style={{textAlign:'center',color:'#dee3e2'}}>WHAT'S TRENDING</h1>
+        <h1 style={{textAlign:'center',color:'black'}}>WHAT'S TRENDING</h1>
         
             <Row justify="center">
               {cardData.map(data=> 
               <Card
                 hoverable
-                style={{ width: 240, margin: 10 }}
+                style={{ width: 240, margin: 10, textAlign:'left'}}
                 cover={<img alt="example" src={data.image} />}>
                 <Meta title={data.title} description={data.price} />
               </Card>
@@ -102,8 +102,8 @@ const { Meta } = Card;
 
       <div className="content-discount">
         <Row>
-          <Col span={12} className="discount-text" style={{textAlign:'right', paddingRight:'30px'}}>
-            <h2 style={{fontSize:'25pt', margin:'0', color:'white'}}>JOIN CREATOR & GET <br/>15% DISCOUNT</h2>
+          <Col span={12} className="discount-text" style={{textAlign:'left', paddingLeft:'330px'}}>
+            <h2 style={{fontSize:'23pt', margin:'0', color:'white', fontWeight:'bold'}}>JOIN CREATOR & GET <br/>15% DISCOUNT</h2>
           </Col>
           <Col span={12} style={{paddingTop:'30px', textAlign:'left'}}>
           <Button type="dark" style={{width:'125px', height:'50px',  color:'white', backgroundColor:'black'}}>

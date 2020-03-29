@@ -1,0 +1,42 @@
+@import '~antd/dist/antd.css';
+
+.App-kids{
+    text-align: right;
+    background-color: #dee3e2;
+    height: 500px;
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/kids-superstar-MH-Small-D_tcm221-471179.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.app-text-kids{
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 170px;
+    padding-right: 30px;
+}
+
+.App-card-kids{
+    text-align: right;
+    background-color: #000000;
+    height: 500px;
+}
+
+.card1{
+    
+}
+
+.kids-1{
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/kids-ss20-kidsattack-klp-teaser-large-2-t_tcm143-447497.jpg');
+    
+    background-size: cover;
+    height: 500px;
+}
+
+.kids-2{
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/kids-ss20-kidsattack-klp-signup-t_tcm221-447626.jpg');
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding-top: 380px;
+}

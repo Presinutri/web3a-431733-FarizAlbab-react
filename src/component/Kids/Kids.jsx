@@ -17,24 +17,24 @@ const { Meta } = Card;
 
   const cardData = [
     {
-      image : "https://cdn.zando.co.za/p/343826-8099-628343-1-zoom.jpg",
-      title : "FrontEnd EDGEBOUNCE 1.5 SHOES",
-      price : "$45"
+      image : "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/4a983edb13b8471eb446aa49000d5e0a_9366/ultraboost-19-shoes.jpg",
+      title : "ULTRABOOST 19 SHOES",
+      price : "$160"
     },
     {
-      image :"https://assets.adidas.com/images/w_600,f_auto,q_auto/36378345e8b14ab2b032a8ba00f131b1_9366/Swift_Run_Shoes_White_B37725_01_standard.jpg",
-      title : "Swift Run Shoes",
-      price : "$43"
-    },
-    {
-      image : "https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/35a22142df5e49a1a57caa990134d1a9_9366/Ultraboost_Shoes_White_F34079_01_standard.jpg",
-      title : "ULTRABOOST SHOES",
+      image :"https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/a6f1f19ae9f54c7b8de6ab0a00b76dfa_9366/ozweego-shoes.jpg",
+      title : "OZWEEGO SHOES",
       price : "$90"
     },
     {
-      image : "https://www.shoegalleryonline.com/prodimages/23981-DEFAULT-l.jpg",
-      title : "Adidas Women's Crazy Chaos",
-      price : "$75"
+      image : "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/d502f17f32884180ac77ab2500dc8107_9366/u_path-run-shoes.jpg",
+      title : "U_PATH RUN SHOES",
+      price : "$65"
+    },
+    {
+      image : "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/8cfded326377438dbda9ab2c009d3fc0_9366/haiwee-shoes.jpg",
+      title : "HAIWEE SHOES",
+      price : "$65"
     }
 
   ]
@@ -45,10 +45,10 @@ const { Meta } = Card;
         <Header>
           <div className="logo" />
           <Menu
-            theme="dark"
+            theme="light"
             mode="horizontal"
             defaultSelectedKeys={['3']}
-            style={{ lineHeight: '64px'}}
+            style={{ lineHeight: '64px',fontWeight:'bold'}}
           >
             <Menu.Item key="1"><Link to='/'>MEN</Link></Menu.Item>
             <Menu.Item key="2"><Link to='/women'>WOMEN</Link></Menu.Item>
@@ -57,58 +57,49 @@ const { Meta } = Card;
         </Header>
         <Content className="content">
           <Breadcrumb style={{ margin: '16px 0',textAlign: 'center'}}>
-            <p style={{color: '#dee3e2'}}> US Store Closure Updates  <b>READ MORE</b></p>
+            <p style={{color: 'black'}}> US Store Closure Updates  <b>READ MORE</b></p>
           </Breadcrumb>
 
-          {/* <div className="App">
+          <div className="App-kids">
             <Row>
-              <Col span={12} className="app-text">
-                <h1 style={{fontSize:'30pt', margin:'0'}}>50% OFF FOR A LIMITED TIME</h1>
-                <p>Get 30% off full price and sale with promo code MARCH30 at checkout. Excludes Yeezy, Pharrell Williams, and Gift Cards</p>
-                <Button type="dark" style={{width:'150px', height:'50px',  color:'white', backgroundColor:'black'}}>
+              <Col span={12} className="app-text-kids">
+                <h1 style={{fontSize:'30pt', margin:'0', color:'white'}}>CHANGE IS A TEAM SPORT</h1>
+                <p style={{color:'white'}}>Young creators, it's your turn to make Superstar history.</p>
+                <Button type="dark" style={{width:'150px', height:'50px',  color:'black', backgroundColor:'white',fontWeight:'bold'}}>
                    SHOP NOW
-                   <ArrowLeftOutlined />
+                   <ArrowRightOutlined />
                 </Button>
               </Col>
-              <Col span={12}>
-                <img className="img-sepatu" src="https://sneakerbardetroit.com/wp-content/uploads/2018/06/adidas-Ultra-Boost-Ash-Peach-BB6497.jpg"></img>
-              </Col> 
             </Row>
-          </div> */}
-          <div className="App-women">
+          </div>
+          <div className="App-card-kids">
             <Row>
               <Col span={12}>
-              <img className="img-sepatu-women" src="https://www.improveyourvolley.com/images/alixklinemanadidascloseup.jpg"></img>  
+              <div className="kids-1">
+
+              </div>
               </Col>
-              <Col span={12} className="app-text-women">
-              <h1 style={{fontSize:'30pt', margin:'0', color:'white'}}>ALIX KLINEMAN IS READY</h1>
-                <p style={{ color:'white'}}>HEAT.RDY apparel keeps the air flowing and you cool, dry and confident.</p>
-                <Button type="dark" style={{width:'170px', height:'50px',  color:'black', backgroundColor:'white'}}>
-                  <ArrowLeftOutlined />
-                   SHOP HEAT.RDY
+              <Col span={12}>
+              <div className="kids-2">
+                <h3 style={{fontSize:'14pt', margin:'0', color:'white', fontWeight:'bold'}}>OUT GROWN THEIR GEAR?</h3>
+                <p style={{ color:'white', margin:'0',}}>Update their look.</p>
+                <Button type="dark" style={{width:'140px', height:'50px',  color:'black', backgroundColor:'white', fontWeight:'bold'}}>
+                  SHOP NOW
+                   <ArrowRightOutlined />
                 </Button>
-                <br/>
-                <br/>
-                <Button type="dark" style={{width:'210px', height:'50px',  color:'black', backgroundColor:'white'}}>
-                   <ArrowLeftOutlined />
-                   EXPLORE TECHNOLOGY
-                </Button>
+              </div>
               </Col> 
             </Row>
           </div>
-      <div className="content-text-women">
-        <h3 style={{fontSize:'18pt'}}>WOMEN’S CLOTHING & SHOES</h3>
-        <p>In sport and in life, creators aren’t content on the sidelines. adidas women’s shoes and apparel are made for those who understand that rules can be negotiated; expectations, evolved. Reach for a new personal best in apparel made of specialized performance fabrics. Accentuate your personal style in sport-inspired sneakers for your day-to-day. Whether sport is your life or you’re an athleisure fashionista, women’s clothing and footwear from adidas exist to help you redefine what’s possible.</p>
-      </div>
 
-      <div className="site-card-wrapper">
-        <h1 style={{textAlign:'center',color:'#dee3e2', fontSize:'18pt'}}>WHAT'S TRENDING</h1>
+          <div className="site-card-wrapper">
+        <h1 style={{textAlign:'center',color:'black', fontSize:'18pt'}}>WHAT'S TRENDING</h1>
         
             <Row justify="center">
               {cardData.map(data=> 
               <Card
                 hoverable
-                style={{ width: 250, margin: 10 }}
+                style={{ width: 250, margin: 10, textAlign:'left'}}
                 cover={<img alt="example" src={data.image} />}>
                 <Meta title={data.title} description={data.price} />
               </Card>
@@ -116,10 +107,17 @@ const { Meta } = Card;
             </Row>
       </div>
 
+      <div className="content-text-women">
+        <h3 style={{fontSize:'18pt'}}>ADADAS KIDS CLOTHING & KIDS SHOES</h3>
+        <p>Whether they’re big kids playing in a weekend tournament or little ones mastering the monkey bars, being a young creator is all about having fun while playing hard. Find girls’ and boys’ shoes to support both their game and their style. Boys’ and girls’ clothing and shoes from adidas are built to give kids of every age and stage comfort and confidence for everything from first steps to personal bests</p>
+      </div>
+
+      
+
       <div className="content-discount-women">
         <Row>
-          <Col span={12} className="discount-text-women" style={{textAlign:'right', paddingRight:'30px'}}>
-            <h2 style={{fontSize:'25pt', margin:'0', color:'black'}}>STAY IN THE KNOW WITH ADADAS!</h2>
+          <Col span={12} className="discount-text-women" style={{textAlign:'left', paddingLeft:'300px'}}>
+            <h2 style={{fontSize:'23pt', margin:'0', color:'black', fontWeight:'bold'}}>STAY IN THE KNOW WITH ADADAS!</h2>
           </Col>
           <Col span={12} style={{paddingTop:'30px', textAlign:'left'}}>
           <Button type="dark" style={{width:'125px', height:'50px', color:'white', backgroundColor:'black'}}>
